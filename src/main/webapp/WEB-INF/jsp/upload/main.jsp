@@ -24,7 +24,7 @@
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
                         jobType: 'SAMPLE',
-                        content: 'JSP에서 보낸 샘플 데이터'
+                        content: 'JSP에서 보낸 샘플 데이터12'
                     })
                 });
 
