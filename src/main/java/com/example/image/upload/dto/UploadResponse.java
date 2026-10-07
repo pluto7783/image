@@ -1,11 +1,15 @@
 package com.example.image.upload.dto;
 
 import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 
 @Builder
+@Getter
+@Setter
 public class UploadResponse {
 
-    public String resultCode;
-    public String resultMsg;
+    private String resultCode;
+    private String resultMsg;
 
 }
