@@ -1,7 +1,12 @@
 package com.example.image.upload.dto;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class UploadRequest {
 
-    public String jobType;
-    public String content;
+    private String jobType;
+    private String content;
 }
